@@ -1,8 +1,8 @@
 package co.edu.uniquindio.poo.parcial2.estructuras;
 
 public class Cola<T> {
-    private NodoCola<T> frente;
-    private NodoCola<T> fin;
+    private Nodo<T> frente;
+    private Nodo<T> fin;
     private int tamanio;
 
     public Cola() {
@@ -12,7 +12,7 @@ public class Cola<T> {
     }
 
     public void encolar(T dato) {
-        NodoCola<T> nuevo = new NodoCola<>(dato);
+        Nodo<T> nuevo = new Nodo<>(dato);
         if (estaVacia()) {
             frente = nuevo;
         } else {
@@ -50,5 +50,3 @@ public class Cola<T> {
         return tamanio;
     }
 }
-
-
