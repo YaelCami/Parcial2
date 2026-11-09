@@ -7,9 +7,7 @@ import co.edu.uniquindio.poo.parcial2.logica.PruebaOperacionesPila;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("========================================");
-        System.out.println("   PRUEBAS INTEGRADAS - PARCIAL 2");
-        System.out.println("========================================");
+        System.out.println("Pruebas integradas:");
 
         ejecutarPrueba("1. PRUEBAS DE LA PILA",
                 () -> PruebaOperacionesPila.main(args));
@@ -23,9 +21,8 @@ public class Main {
         ejecutarPrueba("4. PRUEBAS DEL ARBOL ABB",
                 () -> PruebaArbolABB.main(args));
 
-        System.out.println("\n========================================");
         System.out.println("   FIN DE LAS PRUEBAS INTEGRADAS");
-        System.out.println("========================================");
+
     }
 
     private static void ejecutarPrueba(

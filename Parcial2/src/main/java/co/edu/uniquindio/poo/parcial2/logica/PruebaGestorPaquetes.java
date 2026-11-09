@@ -18,7 +18,7 @@ public class PruebaGestorPaquetes {
         pendientes.encolar(new Paquete("P7", TipoEntrega.NORMAL, 2));
 
         System.out.println("Gestion de Paquetes");
-        System.out.println("Cola inicial, del inicio al final:");
+        System.out.println("Cola inicial, desde el inicio hasta el final:");
         gestor.mostrar(pendientes);
 
         System.out.println("\nEvaluacion de paquetes, teniendo una capacidad maxima de 14 kg:");
