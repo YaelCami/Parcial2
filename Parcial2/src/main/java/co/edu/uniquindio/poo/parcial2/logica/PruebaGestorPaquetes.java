@@ -21,13 +21,13 @@ public class PruebaGestorPaquetes {
         System.out.println("Cola inicial, del inicio al final:");
         gestor.mostrar(pendientes);
 
-        System.out.println("\nEvaluacion de paquetes, teniendo una capacidad de 14 kg:");
+        System.out.println("\nEvaluacion de paquetes, teniendo una capacidad maxima de 14 kg:");
         Cola<Paquete> seleccionados = gestor.seleccionarPaquetes(pendientes, 14);
 
         System.out.println("\nCola retornada:");
         gestor.mostrar(seleccionados);
 
-        System.out.println("\nPendientes despues de la seleccion:");
+        System.out.println("\nPaquete que quedaron pendientes despues de la seleccion:");
         gestor.mostrar(pendientes);
 
         System.out.println("\nCapacidad disponible: " + gestor.getCapacidadRestante() + " kg");
