@@ -42,7 +42,6 @@ public class EjercicioCajas {
         String[] codigos = {"C3", "C4", "C7"};
 
         for (String codigo : codigos) {
-            // CORRECCIÓN: Aquí también se quita "main.java." para hacer la llamada limpia
             boolean retirado =
                     co.edu.uniquindio.poo.parcial2.logica.OperacionesCajas.retirarCaja(pila, codigo);
 
